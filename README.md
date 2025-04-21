@@ -18,4 +18,4 @@ git clone https://github.com/kunaaa123/pingpong.git
 cd pingpong
 
 # 3. รันโปรแกรม
-go run main.go
+go run .
