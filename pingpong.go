@@ -420,11 +420,11 @@ func main() {
 
 	go func() {
 		log.Println("🚀 เซิร์ฟเวอร์ผู้เล่นกำลังทำงานที่ http://localhost:8888")
-		log.Fatal(http.ListenAndServe(":8888", nil))
+		log.Fatal(http.ListenAndServe(":8887", nil))
 	}()
 	go func() {
 		log.Println("📡 เซิร์ฟเวอร์โต๊ะกำลังทำงานที่ http://localhost:8889")
-		log.Fatal(http.ListenAndServe(":8889", nil))
+		log.Fatal(http.ListenAndServe(":8886", nil))
 	}()
 
 	for {
